@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gangluff's Sound Board - Change Sounds</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+			
+		<script src="js/Template/jquery.min.js"></script>
+		<script src="js/Template/jquery.dropotron.min.js"></script>
+		<script src="js/Template/skel.min.js"></script>
+		<script src="js/Template/skel-layers.min.js"></script>
+		<script src="js/Template/init.js"></script>
+		<script src="audioArray.JS"></script>
+		<script src="js/soundsFx.JS"></script>
+		<script src="js/jquery-1.11.2.js"></script>
+		<script src="js/soundBoardSetup.JS"></script>
+		<script src="js/globals.JS"></script>
+		
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/Table tune.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="left-sidebar">
+
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="container">
+						
+					<!-- Header -->
+						<header id="header">
+							<div class="inner">
+							
+								<!-- Logo -->
+									<h1><a id="logo">Instructions - BETA TESTING</a></h1>
+								
+								<!-- Nav -->
+									<nav id="nav">
+										<ul>
+											<li class="current_page_item">
+												<a href="">Instructions</a>
+												<ul>
+													<li><a href="GangluffSoundBoard.html">Sound Board</a></li>
+													<li><a href="Change Sounds.html">Change Sounds</a></li>
+													<li><a href="#">Veroeros feugiat</a></li>
+												</ul>
+											</li>
+											<li onclick="toggle()"><button><span id="isMuted">Mute</span></button></li>
+										</ul>
+									</nav>
+							</div>
+						</header>
+
+				</div>
+			</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="wrapper style2">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="4u">
+									<div id="sidebar">
+
+										<!-- Sidebar -->
+									
+											<section>
+												<header class="major">
+													<h2>MP3's from YouTube</h2>
+												</header>
+												<p>Use these links to get the audio from your favorite YouTube video to use on
+												the soundboard.<p>
+												<p>
+												<a href="http://www.youtube.com/"><u>YouTube Sheet:</u></a> Takes you to YouTube to find sheet.
+												<br><a href="http://www.youtube-mp3.org/"><u>Convert Sheet:</u></a> Takes your YouTube sheet and converts to .mp3 sheet
+												<br><a href="http://mp3cut.net/"><u>Edit MP3 Sheet:</u></a> Online sheet editor to fine tune your .mp3 sheet	
+												</p>
+												<footer>
+												</footer>
+											</section>
+
+											<!--<section>
+												<header class="major">
+													<h2>Subheading</h2>
+												</header>
+												<ul class="style2">
+													<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+													<li><a href="#">Ornare in hendrerit in lectus</a></li>
+													<li><a href="#">Semper mod quis eget mi dolore</a></li>
+													<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+													<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+													<li><a href="#">Semper mod quisturpis nisi</a></li>
+													<li><a href="#">Consequat etiam lorem phasellus</a></li>
+													<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+													<li><a href="#">Semper mod quisturpis nisi</a></li>
+												</ul>
+												<footer>
+													<a href="#" class="button icon fa-arrow-circle-o-right">Do Something</a>
+												</footer>
+											</section>-->
+								
+									</div>
+								</div>
+								<div class="8u important(collapse)">
+									<div id="content">
+
+										<!-- Content -->
+									
+											<article>
+												<header class="major">
+													<h2>How to Change Your Sounds</h2>
+													<p>The complete and idiot proof way to change your sounds.
+													<br> If you manage to mess this up, you should just drop. </p>
+												</header>
+												
+												<span class="image featured"><img src="images/Gangluff Rawr.png" alt="" /></span>
+												
+												<p>Observe the wild Gangluff as he yells at you for screwing up something so simple. All you had to 
+												do was drag and drop. Just drag and drop. ALL the hardstuff was done for you! Code was automatically 
+												generated for you and presented to you with a nice download link! You just needed to drag it in with
+												soundfiles! </p>
+												
+												<h3>Step 1: Acquire Soundfiles</h3>
+												<p>Find the soundfiles you would like to use in your soundboard. These can be downloaded 
+												from the internet or stripped from Youtube Videos (see sidebar for links). When your sound files
+												have been aquired, move them into the "Sound Files" folder in the "Board with Template" folder.
+												<br>Note: As of now, soundfiles MUST be in <strong>.mp3</strong> format!</p>
+												
+												<h3>Step 2: Generate new audioArray.JS file</h3>
+												<p>Navigate to the <a href="Change Sounds.html">"Change Sounds"</a> page and select how many
+												sounds you would like on the soundboard. You can choose any number between 1 and 40 (inclusive).
+												The number already in the field is the number of sounds already on the board. Once finished, hit "Enter".</p>
+												
+												<p>Once you have submitted how many sounds you would like, a number of fields will appear in groups
+												of two - each group represents one sound on the soundboard. If you already have sounds loaded into the 
+												board, they will appear in their respective spots (i.e. if Sound 1 is filled with "Crying Students",
+												the Name and URL of "Crying Students" will already be filled in for the Sound 1 fields). If you select more 
+												sounds than currently on the board then the fields for the new sounds will be filled with "Name" and "Url". 
+												If you select less sounds than currently on the board then you will "delete" sounds to meet the new desired 
+												number. Type in the name and URL of the soundfiles you would like on the board. "Name" corresponds to the 
+												sound's label while "URL" is the file name (including the .mp3 extension). Remember: the computer will read 
+												your inputs <strong>AS THEY APPEAR</strong>. This means capitalization and spacing for the URL field 
+												<strong>MUST</strong> match with the names of the files in the Sound folder <strong>EXACTLY!</strong></p> 
+												
+												<p>Click "Save" to save your changes or "Back" to edit the selected number of sounds. When "Save" is clicked,
+												a link will appear to download the new .JS file. This file contains the settings of the soundboard.Click the link
+												and downlaod the file.</p>
+												
+												<h3>Step 3: Replace the JS File</h3>
+												<p>Locate the newly downloaded audioArray.JS file. Drag and drop it into the "Board with Template" folder. 
+												Since there should already be another JS file of the same name, the computer will prompt you asking what to
+												do in response to the conflit. Replace the old file with the new file. If this conflict does not pop up, you
+												may have done something wrong. Make sure that you are dropping it into the right folder ("Board with Template")
+												and that you have the correct file name (audioArray.JS). Be sure to check for multiple downloads of the same 
+												file to the dowloads folder as it may change the file name to "audioArray (#).JS".
+												</p>
+												
+												<p>Upon properly completing this step, your Soundboard should be fully operational!</p>
+												
+												
+											</article>
+								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+			<footer id="footer" class="container">
+<!--					<div class="row">-->
+						<div class="12u">
+<!--							<div id="copyright">-->
+								<ul class="menu" align="center">
+									<li>Written by Andrew Tu</li><li>Design Template: HTML5 UP</li>
+								</ul>
+<!--						</div>-->
+						</div>
+<!--					</div>-->
+			</footer>
+		</div>
+
+	</body>
+</html>
